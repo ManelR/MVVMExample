@@ -56,15 +56,55 @@
 		3BC642C72A212136009CBF32 /* MVVMExample */ = {
 			isa = PBXGroup;
 			children = (
-				3BC642C82A212136009CBF32 /* AppDelegate.swift */,
+				3BC642DC2A2121E3009CBF32 /* Application */,
+				3BC642DD2A2121EB009CBF32 /* Data */,
+				3BC642DE2A2121F4009CBF32 /* Domain */,
+				3BC642DF2A2121FE009CBF32 /* Presentation */,
+				3BC642E02A212206009CBF32 /* Resources */,
+			);
+			path = MVVMExample;
+			sourceTree = "<group>";
+		};
+		3BC642DC2A2121E3009CBF32 /* Application */ = {
+			isa = PBXGroup;
+			children = (
 				3BC642CA2A212136009CBF32 /* SceneDelegate.swift */,
-				3BC642CC2A212136009CBF32 /* ViewController.swift */,
+				3BC642C82A212136009CBF32 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		3BC642DD2A2121EB009CBF32 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		3BC642DE2A2121F4009CBF32 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		3BC642DF2A2121FE009CBF32 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
 				3BC642CE2A212136009CBF32 /* Main.storyboard */,
+				3BC642CC2A212136009CBF32 /* ViewController.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		3BC642E02A212206009CBF32 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				3BC642D12A212137009CBF32 /* Assets.xcassets */,
 				3BC642D32A212137009CBF32 /* LaunchScreen.storyboard */,
 				3BC642D62A212137009CBF32 /* Info.plist */,
 			);
-			path = MVVMExample;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,9 +328,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MVVMExample/Info.plist;
+				INFOPLIST_FILE = MVVMExample/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -315,9 +355,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MVVMExample/Info.plist;
+				INFOPLIST_FILE = MVVMExample/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
